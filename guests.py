@@ -11,12 +11,16 @@ while True:
             print("Guest name can't be empty")
         else:
         # Allows users to add guests to the list
-            guests.add(user_guests)
+            guests.add(user_guests.capitalize())
             print(guests)
     user_guests = input("Enter a guest(q to quit): ")
 
     if user_guests in guests:
         print(f"{user_guests} already exists")
 print() 
+
+print("Your guests")
+for guest in guests:
+    print(f"* {guest}")
 
 
