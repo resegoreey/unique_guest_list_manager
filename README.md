@@ -4,11 +4,11 @@
 
 What It Does:
 
-- Store a list of guest names using a set.
-- Allow users to add guests to the list.
-- Prevent duplicate names from being added.
+- Stores a list of guest names using a set.
+- Allows users to add guests to the list.
+- Prevents duplicate names from being added.
 
 # Further Modifications:
 
-- Allow guests to be removed.
-- Check if a specific guest is on the list.
+- Allowing guests to be removed.
+- Checking if a specific guest is on the list.
